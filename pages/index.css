@@ -4,7 +4,7 @@
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__lang-links/header__lang-links.css);
 @import url(../blocks/header/__lang-link/header__lang-link.css);
-@import url(../blocks/header/__lang-link/_underline/header__lang-link_underline.css);
+@import url(../blocks/header/__lang-link/_active/header__lang-link_active.css);
 @import url(../blocks/content/content.css);
 @import url(../blocks/lead/lead.css);
 @import url(../blocks/lead/__caption/lead__caption.css);
@@ -14,6 +14,7 @@
 @import url(../blocks/lead/__title/lead__title.css);
 @import url(../blocks/intro/intro.css);
 @import url(../blocks/intro/__list/intro__list.css);
+@import url(../blocks/intro/__value/intro__value.css);
 @import url(../blocks/intro/__text/intro__text.css);
 @import url(../blocks/intro/__title/intro__title.css);
 @import url(../blocks/photo-grid/photo-grid.css);
@@ -35,73 +36,3 @@
 @import url(../blocks/footer/__links/footer__links.css);
 @import url(../blocks/footer/__link/footer__link.css);
 @import url(../fonts/Inter/inter.css);
-
-@font-face {
-    font-family: "Inter";
-    src:
-        url("Inter-Thin.woff2?v=3.19") format("woff2"),
-        url("Inter-Thin.woff?v=3.19") format("woff");
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
