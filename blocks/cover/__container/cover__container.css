@@ -32,3 +32,21 @@
 .cover__container:hover::after{
     background: rgba(42, 44, 47, .8);
 }
+
+@media screen and (max-width: 1024px) {
+    .cover__container {
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cover__container {
+        padding: 15% 0;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .cover__container {
+        padding: 10% 0;
+    } 
+}
